@@ -1,0 +1,6 @@
+services:
+  juegogalaga:
+    image: juegogalaga
+    build:
+      context: .
+      dockerfile: ./Dockerfile
